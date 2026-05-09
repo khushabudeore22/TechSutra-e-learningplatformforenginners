@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 import json
-from .models import UserRegistrationData, Department, Semester, Subject, Resource, PlatformReview
+from .models import UserRegistrationData, Department, Semester, Subject, Resource, PlatformReview, VideoLecture
 
 # Create your views here.
 def home(request):
@@ -66,6 +66,7 @@ def dashboard(request):
 def resources(request, subject_id):
     subject = get_object_or_404(Subject, id=subject_id)
     resources = subject.resources.all()
+    video_lectures = subject.video_lectures.all().order_by('-created_at')
     
     context = {
         'subject': subject,
@@ -73,9 +74,21 @@ def resources(request, subject_id):
         'notes_ppt': resources.filter(file_type='notes_ppt'),
         'question_papers': resources.filter(file_type='qp'),
         'videos': resources.filter(file_type='video'),
-        'syllabus': resources.filter(file_type='syllabus')
+        'syllabus': resources.filter(file_type='syllabus'),
+        'video_lectures': video_lectures,
     }
     return render(request, 'TechSutraapp/resources.html', context)
+
+@login_required(login_url='login')
+def video_lectures_view(request, subject_id):
+    subject = get_object_or_404(Subject, id=subject_id)
+    video_lectures = subject.video_lectures.all().order_by('-created_at')
+    
+    context = {
+        'subject': subject,
+        'video_lectures': video_lectures,
+    }
+    return render(request, 'TechSutraapp/video_lectures.html', context)
 
 @login_required(login_url='login')
 def resource_list(request, subject_id, resource_type):

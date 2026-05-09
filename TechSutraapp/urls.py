@@ -12,5 +12,5 @@ urlpatterns = [
     path('logout/', logout_view, name='logout'),
     path('register/', register, name='register'),
     path('resources/<int:subject_id>/', resources, name='resources'),
-    path('resources/<int:subject_id>/<str:resource_type>/', resource_list, name='resource_list')
+    path('resources/<int:subject_id>/<str:resource_type>/', resource_list, name='resource_list'),
 ]

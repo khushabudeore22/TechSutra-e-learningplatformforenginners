@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ subject.name }} Resources - TechSutra</title>
-    <link rel="stylesheet" href="{% static 'TechSutraapp/css/style.css' %}?v=4.0">
+    <link rel="stylesheet" href="{% static 'TechSutraapp/css/style.css' %}?v=6.0">
 </head>
 <body>
 
@@ -77,11 +77,33 @@
         <div class="study-col">
             <div class="resource-group">
                 <h3>🎥 Video Lectures</h3>
+
+                <!-- Videos added via Resources (file_type='video') -->
                 {% for res in videos %}
-                <button class="resource-btn" onclick="openModal('{% if res.file %}{{ res.file.url }}{% else %}#{% endif %}')">{{ res.title }}</button>
-                {% empty %}
-                <p style="color:#777; font-size:14px;">No video lectures available.</p>
+                <div class="vl-card" onclick="openVideo('', '{{ res.file.url }}', '{{ res.title|escapejs }}')">
+                    <div class="vl-play">▶</div>
+                    <div class="vl-info">
+                        <span class="vl-title">{{ res.title }}</span>
+                    </div>
+                    <span class="vl-type">Video</span>
+                </div>
                 {% endfor %}
+
+                <!-- Videos added via Video Lectures model -->
+                {% for vl in video_lectures %}
+                <div class="vl-card" onclick="openVideo('{{ vl.video_url|default_if_none:"" }}', '{% if vl.video_file %}{{ vl.video_file.url }}{% endif %}', '{{ vl.title|escapejs }}')">
+                    <div class="vl-play">▶</div>
+                    <div class="vl-info">
+                        <span class="vl-title">{{ vl.title }}</span>
+                        {% if vl.description %}<span class="vl-desc">{{ vl.description|truncatewords:10 }}</span>{% endif %}
+                    </div>
+                    {% if 'nptel' in vl.video_url %}<span class="vl-type nptel">NPTEL</span>{% elif vl.video_url %}<span class="vl-type yt">YouTube</span>{% else %}<span class="vl-type">Video</span>{% endif %}
+                </div>
+                {% endfor %}
+
+                {% if not videos and not video_lectures %}
+                <p style="color:#777; font-size:14px;">No video lectures available.</p>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -99,6 +121,28 @@
         </div>
         <div class="modal-content-area">
             <iframe id="modalIframe" src="" title="Resource Preview"></iframe>
+            <div id="modalNoPreview" class="modal-no-preview" style="display:none; padding: 20px; color: #333; font-size: 16px; text-align:center;">
+                Preview is not available for this file type. Click Download to save the file.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ================= VIDEO MODAL OVERLAY ================= -->
+<div class="modal-overlay" id="videoModal" onclick="if(event.target===this)closeVideoModal()">
+    <div class="modal-window">
+        <div class="modal-header">
+            <h3 id="videoModalTitle">Video Lecture</h3>
+            <div class="modal-actions">
+                <button class="modal-close-btn" onclick="closeVideoModal()">X</button>
+            </div>
+        </div>
+        <div class="modal-content-area" style="background:#000; position:relative;">
+            <div id="ytPlayerContainer" style="width:100%; height:100%; display:none;"></div>
+            <iframe id="videoIframe" src="" style="width:100%; height:100%; border:none; display:none;" allowfullscreen></iframe>
+            <video id="videoPlayer" controls style="width:100%; height:100%; display:none;">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 </div>
@@ -106,18 +150,111 @@
 <!-- ================= FOOTER ================= -->
 {% include 'TechSutraapp/footer.html' %}
 
+<!-- YouTube IFrame API -->
+<script src="https://www.youtube.com/iframe_api"></script>
 <script src="{% static 'TechSutraapp/js/auth.js' %}"></script>
 <script>
+    var ytPlayer = null;
+
     function openModal(fileUrl) {
+        const previewableExtensions = ['pdf', 'jpg', 'jpeg', 'png', 'mp4', 'webm', 'ogg'];
+        const ext = (fileUrl || '').split('.').pop().split('?')[0].toLowerCase();
+        const iframe = document.getElementById('modalIframe');
+        const noPreview = document.getElementById('modalNoPreview');
+        const downloadBtn = document.getElementById('modalDownloadBtn');
+
         document.getElementById('resourceModal').style.display = 'flex';
-        document.getElementById('modalIframe').src = fileUrl;
-        document.getElementById('modalDownloadBtn').href = fileUrl;
+        downloadBtn.href = fileUrl;
+
+        if (previewableExtensions.includes(ext)) {
+            iframe.style.display = 'block';
+            iframe.src = fileUrl;
+            noPreview.style.display = 'none';
+        } else {
+            iframe.style.display = 'none';
+            iframe.src = '';
+            noPreview.style.display = 'block';
+        }
     }
 
     function closeModal() {
         document.getElementById('resourceModal').style.display = 'none';
         document.getElementById('modalIframe').src = '';
     }
+
+    // Extract YouTube video ID
+    function getYouTubeId(url) {
+        if (!url) return null;
+        var match = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|live\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+        return match ? match[1] : null;
+    }
+
+    // Open video inside the website
+    function openVideo(videoUrl, fileUrl, title) {
+        document.getElementById('videoModalTitle').textContent = title || 'Video Lecture';
+        var ytContainer = document.getElementById('ytPlayerContainer');
+        var iframeEl = document.getElementById('videoIframe');
+        var player = document.getElementById('videoPlayer');
+
+        // Reset everything
+        ytContainer.style.display = 'none';
+        if (ytPlayer) { ytPlayer.destroy(); ytPlayer = null; }
+        ytContainer.innerHTML = '<div id="ytPlayerDiv"></div>';
+        iframeEl.style.display = 'none';
+        iframeEl.src = '';
+        player.style.display = 'none';
+        player.src = '';
+
+        var ytId = getYouTubeId(videoUrl);
+
+        if (ytId) {
+            // Use YouTube IFrame Player API for best compatibility
+            ytContainer.style.display = 'block';
+            ytPlayer = new YT.Player('ytPlayerDiv', {
+                width: '100%',
+                height: '100%',
+                videoId: ytId,
+                playerVars: {
+                    autoplay: 1,
+                    rel: 0,
+                    modestbranding: 1,
+                    origin: window.location.origin
+                }
+            });
+        } else if (videoUrl) {
+            // Other external URL — embed in iframe
+            iframeEl.src = videoUrl;
+            iframeEl.style.display = 'block';
+        } else if (fileUrl) {
+            // Uploaded video file
+            player.src = fileUrl;
+            player.style.display = 'block';
+            player.play();
+        }
+
+        document.getElementById('videoModal').style.display = 'flex';
+    }
+
+    function closeVideoModal() {
+        if (ytPlayer) { ytPlayer.destroy(); ytPlayer = null; }
+        document.getElementById('ytPlayerContainer').style.display = 'none';
+        document.getElementById('ytPlayerContainer').innerHTML = '<div id="ytPlayerDiv"></div>';
+        var iframeEl = document.getElementById('videoIframe');
+        iframeEl.src = '';
+        iframeEl.style.display = 'none';
+        var player = document.getElementById('videoPlayer');
+        player.pause();
+        player.src = '';
+        player.style.display = 'none';
+        document.getElementById('videoModal').style.display = 'none';
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeVideoModal();
+            closeModal();
+        }
+    });
 </script>
 
 </body>

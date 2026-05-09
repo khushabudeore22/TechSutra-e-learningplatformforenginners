@@ -1,0 +1,3534 @@
+﻿[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$YWza4uBiw03GWBlVaAyzOU$rWwzD58UAjr+DVmay69g+B50wZ0cRZrTkl4YjSajStM=",
+        "last_login": "2026-04-22T15:33:10.955Z",
+        "is_superuser": true,
+        "username": "TechSutra",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-04-03T06:43:23.514Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$3xQ1sjmXIC4BTDExCe7FZ5$UD99oPKnB98SEtHmgYd2Fm3R0u+LhWzC3zjXt1OMXZo=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "techsutra",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-04-08T13:59:35.349Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$Z24g1v0hFsHSpJgEU1EOY2$Sf2YWLmgfSpHzdq9SJy9JRlpVzCM0fv+2vFr2POBtac=",
+        "last_login": "2026-04-08T14:05:42.805Z",
+        "is_superuser": false,
+        "username": "khushabu",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-08T14:05:39.175Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$jp3o3hOSqseMOaiAzIECj2$p7Wak7VNE64E0+9MZRX0a7/lV3A0x0NeE+lHsOt8nWk=",
+        "last_login": "2026-05-08T10:17:35.085Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-04-08T14:09:05.299Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$ZTZTEdmi9rjXNyULEsvXRu$y5GfdUkC3OpTB2fWWuR425tCUD9yYDDRebHNJRD73Q8=",
+        "last_login": "2026-04-08T14:16:19.630Z",
+        "is_superuser": false,
+        "username": "khushi",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-08T14:16:16.199Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$uwzYsYeK8Et41iejBMBbeO$gKzGZNBzINc4SJCKMnOoyrmVq/Ra1R4kvyA6zpYXot0=",
+        "last_login": "2026-04-08T14:18:20.986Z",
+        "is_superuser": false,
+        "username": "neha",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-08T14:17:36.688Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$xdivh3ywkPc344kAIF8dCg$17LoFsajElOhLZXr7dnw8Xnzw8Rxr/zw4z5BcMgeN3Y=",
+        "last_login": "2026-04-14T04:40:10.558Z",
+        "is_superuser": false,
+        "username": "nikita",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-08T16:37:49.930Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$5nc9yrG3ZfRiC8Ut6N61xe$nHKZriXvXiZSsCQxffb0egh6TG57HiPoXJ30QAdKXoA=",
+        "last_login": "2026-05-08T06:54:38.150Z",
+        "is_superuser": false,
+        "username": "Dipti",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-10T05:50:51.253Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$7WiDodJd0LCTptYJUdf1TV$6rcgWkthCz1mtvXK4gxwvN30j6GMYJLXk8nHaCJQPD4=",
+        "last_login": "2026-04-10T06:09:00.863Z",
+        "is_superuser": false,
+        "username": "Rinal",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-10T06:08:43.125Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$J5EGci5pGhEiGd8SEMntoU$ZVCqwx2Yuj+7UtAUr5BAwgFvYHmOgN5xL69jbb2Wri4=",
+        "last_login": "2026-04-21T08:02:33.865Z",
+        "is_superuser": false,
+        "username": "Rinu",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-21T08:02:32.546Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$gPnkPFkdNYlrgyza2otvMT$qXGYe7PaRuqd0qmm44bkR/rLO6S0G84j7ygsuZ4UbVg=",
+        "last_login": "2026-05-08T04:29:44.094Z",
+        "is_superuser": false,
+        "username": "Jayashri",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-08T04:29:29.797Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$QsMl7s5IVKOEtTuB1C379F$dxxyOT/7Go1AxjYpXRUYIBvFASEfER3aOwQI81inUBM=",
+        "last_login": "2026-05-08T04:35:56.953Z",
+        "is_superuser": false,
+        "username": "TECHSUTRA",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-08T04:35:52.631Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$Tl9hI9yUinZmsOhHirbdIh$sOb/ZwgNPbdod0b3neJRnULLT2lIi8YiyA52jD6MimY=",
+        "last_login": "2026-05-08T06:43:35.984Z",
+        "is_superuser": false,
+        "username": "svit",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-08T06:43:33.471Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$ZO58X6vRy4oIUTzf9qzYrm$qEL9jL9BnwdaFcsldGjx/AAL9i9jP7MhQoJ3UMgsMvU=",
+        "last_login": "2026-05-08T06:50:18.125Z",
+        "is_superuser": false,
+        "username": "ragini",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-08T06:50:14.097Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$djITX5orm8MsFb7XX6KdsG$4T4dNmqUVCfdUXKWHho3UGJnVXCrWjclVUsi4x3WUy4=",
+        "last_login": "2026-05-08T06:57:31.740Z",
+        "is_superuser": false,
+        "username": "Bhagyashri",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-08T06:57:27.888Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2ga318zjw4d8ah0moiqtl3usx1j6dj14",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grb1rHEC2FCcV4u4QKQW0b2bei0XY1hq3QUuckV2YZKffLUF-UNsB3qHdOs-9rcuc-K7wgw4-daTn9XD_DiqM-q2tDqRJogFHcFYFUgiIGKQXaIPXTiivlMacpUtUghHKFEtoZcnZOs_eH-xiOBo:1wATX9:ySu9-a_BW952_OKfG0sJ-vfhnUKA-rpWWUH7UY33k8w",
+        "expire_date": "2026-04-22T14:05:31.380Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2yk9few16dm2tu7gnn1xjfrr42uniqm8",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDpWVw6d5vaAZmkKqBpI-V8d-1SRe6veec-1IjbWsZt0XmcWJ1Vk6dfrdI6SF1B3ynems6tbrOU9S7og-66GtjeV4O9--g0FK-tRniQIQSXWCKgtiBYICQICaDhq2xkCGAS9mHnk2HnG1OHUov4LNX7w_vLjgK:1wLF1R:vwa-FTaz9sy9SR2DmlN1Mqmi5RBryMAIm0R5R-VXeZQ",
+        "expire_date": "2026-05-22T06:49:17.062Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5wh1zgux4ziynjx3osvvmzh0m17k2yq4",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grb1rHEC2FCcV4u4QKQW0b2bei0XY1hq3QUuckV2YZKffLUF-UNsB3qHdOs-9rcuc-K7wgw4-daTn9XD_DiqM-q2tDqRJogFHcFYFUgiIGKQXaIPXTiivlMacpUtUghHKFEtoZcnZOs_eH-xiOBo:1wF27m:s_OV-Q15lGn9PJ9dbsmcj3C7Xs3clEtbkBpo1QGcDJU",
+        "expire_date": "2026-05-05T03:50:10.470Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "f8egtbmtcgz6n7m2c00fl8kans916qlj",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDpWVw6d5vaAZmkKqBpI-V8d-1SRe6veec-1IjbWsZt0XmcWJ1Vk6dfrdI6SF1B3ynems6tbrOU9S7og-66GtjeV4O9--g0FK-tRniQIQSXWCKgtiBYICQICaDhq2xkCGAS9mHnk2HnG1OHUov4LNX7w_vLjgK:1wLIH1:4-PbF0h3CAU2dcgH4KVnVBR-RcuZWyNO9JrXrPxJznE",
+        "expire_date": "2026-05-22T10:17:35.096Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fxo1mcr6eqj4uncvclpaanqffkycvogw",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grb1rHEC2FCcV4u4QKQW0b2bei0XY1hq3QUuckV2YZKffLUF-UNsB3qHdOs-9rcuc-K7wgw4-daTn9XD_DiqM-q2tDqRJogFHcFYFUgiIGKQXaIPXTiivlMacpUtUghHKFEtoZcnZOs_eH-xiOBo:1wB5Mi:XYFUoA3mq5qYyF3Zf68oLMwf5tPU47QRBlGCMMEgqZk",
+        "expire_date": "2026-04-24T06:29:16.772Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ikcgqc3vihdqm952l2at4tmu9i79na6l",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnyb40p6TmDtevd4ABypDipIu4OkVJA-2bmbSrjutS8dpnzyOqikjr9boTlKW0H_MB2n3SZ2jKPpHdFH7Tr28Tyuh7u30HFXr-1GdgEsQFs9I4cF88xGGEhY4XJgh0EImAKiRGAIZniC_gzOaLoknp_AO7qOBQ:1wB52s:3poex-e9I_qr0-adNZFBVP-oI-j-jSy7u7QFAGkgI7Y",
+        "expire_date": "2026-04-24T06:08:46.885Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "isr9n7mtf7nma2pcwrw4lz5lw8ef10lw",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grb1rHEC2FCcV4u4QKQW0b2bei0XY1hq3QUuckV2YZKffLUF-UNsB3qHdOs-9rcuc-K7wgw4-daTn9XD_DiqM-q2tDqRJogFHcFYFUgiIGKQXaIPXTiivlMacpUtUghHKFEtoZcnZOs_eH-xiOBo:1wAgjc:yrxYbE4rqSxDtTHJSW9PH5JSD8sdgduqf_dx9A3XGeY",
+        "expire_date": "2026-04-23T04:11:16.553Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "koc1wu3arph31cyk6wpliyvmwb6c0ar3",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDpWVw6d5vaAZmkKqBpI-V8d-1SRe6veec-1IjbWsZt0XmcWJ1Vk6dfrdI6SF1B3ynems6tbrOU9S7og-66GtjeV4O9--g0FK-tRniQIQSXWCKgtiBYICQICaDhq2xkCGAS9mHnk2HnG1OHUov4LNX7w_vLjgK:1wLIGy:URduJDlqg9eXFb6-Dlc4j4dB_ra58yHM6scgPnVFMis",
+        "expire_date": "2026-05-22T10:17:32.044Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "msb0vwb04vh4xcjbrgenl4dj12ykkaxg",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grb1rHEC2FCcV4u4QKQW0b2bei0XY1hq3QUuckV2YZKffLUF-UNsB3qHdOs-9rcuc-K7wgw4-daTn9XD_DiqM-q2tDqRJogFHcFYFUgiIGKQXaIPXTiivlMacpUtUghHKFEtoZcnZOs_eH-xiOBo:1wFZZe:0vE9n_qv1M5j4vSwcouofH_l9jfwUPgscG4X9X-kEow",
+        "expire_date": "2026-05-06T15:33:10.961Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "o6cjs730d7kjm52dc6na6s6z776nostx",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDpWVw6d5vaAZmkKqBpI-V8d-1SRe6veec-1IjbWsZt0XmcWJ1Vk6dfrdI6SF1B3ynems6tbrOU9S7og-66GtjeV4O9--g0FK-tRniQIQSXWCKgtiBYICQICaDhq2xkCGAS9mHnk2HnG1OHUov4LNX7w_vLjgK:1wLD91:-dqQnCDkpZk0ToT9U3AxsEwK_xQSYO2APw4c-w2a1Ac",
+        "expire_date": "2026-05-22T04:48:59.862Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ony4t5s272e0ksgjo2wlps44hwzayizn",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDpWVw6d5vaAZmkKqBpI-V8d-1SRe6veec-1IjbWsZt0XmcWJ1Vk6dfrdI6SF1B3ynems6tbrOU9S7og-66GtjeV4O9--g0FK-tRniQIQSXWCKgtiBYICQICaDhq2xkCGAS9mHnk2HnG1OHUov4LNX7w_vLjgK:1wLIGz:9nlO_oiDFJkcWBYuqvBzRBP_EHyz5VV17524CB4SjMU",
+        "expire_date": "2026-05-22T10:17:33.755Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qd6wm64vrhowtok8blmys2rl9s7f4owj",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnyb40p6TmDtevd4ABypDipIu4OkVJA-2bmbSrjutS8dpnzyOqikjr9boTlKW0H_MB2n3SZ2jKPpHdFH7Tr28Tyuh7u30HFXr-1GdgEsQFs9I4cF88xGGEhY4XJgh0EImAKiRGAIZniC_gzOaLoknp_AO7qOBQ:1wB536:qLS1FBE8KbfCv5TA7J5IDePh8dJ4pmqJf7pPSPaE2Zo",
+        "expire_date": "2026-04-24T06:09:00.711Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uqxq2pf77f2li2v8tnivj99np0l9xc08",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCTAt16d4zkGEGpGpoUtqV8e7apAvd_vfef6lA21rC1tISJlFn5dXpd4vEj1R3IHeqt1nzXNdlinpX9EGbvs6SnpfD_Tso1Mq3Ruk6g8DgJXOkaJwd2Dnv2NNgMib2iJBIRiASMtxbgNFl6tlGwajeH_DPOIc:1wB4lv:gzSCIcIWASDOc5XXsNj6fsYKOL09WHTsZMcVOKBYpyk",
+        "expire_date": "2026-04-24T05:51:15.556Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vk9g14gyxqh7m0hws32hzz9jhqecj61j",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCTAt16d4zkGEGpGpoUtqV8e7apAvd_vfef6lA21rC1tISJlFn5dXpd4vEj1R3IHeqt1nzXNdlinpX9EGbvs6SnpfD_Tso1Mq3Ruk6g8DgJXOkaJwd2Dnv2NNgMib2iJBIRiASMtxbgNFl6tlGwajeH_DPOIc:1wB4lb:P3v3bWwvV2-h7C3gKc6h2xpD3Xxx9jQ90hzh8NADymo",
+        "expire_date": "2026-04-24T05:50:55.362Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wiqdznl2xpz7brrbcavuzqzqney9r17r",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCTAt16d4zkGEGpGpoUtqV8e7apAvd_vfef6lA21rC1tISJlFn5dXpd4vEj1R3IHeqt1nzXNdlinpX9EGbvs6SnpfD_Tso1Mq3Ruk6g8DgJXOkaJwd2Dnv2NNgMib2iJBIRiASMtxbgNFl6tlGwajeH_DPOIc:1wB4lv:gzSCIcIWASDOc5XXsNj6fsYKOL09WHTsZMcVOKBYpyk",
+        "expire_date": "2026-04-24T05:51:15.520Z"
+    }
+},
+{
+    "model": "TechSutraapp.department",
+    "pk": 5,
+    "fields": {
+        "name": "Electronics And Computer Engineering"
+    }
+},
+{
+    "model": "TechSutraapp.department",
+    "pk": 6,
+    "fields": {
+        "name": "Computer Engineering"
+    }
+},
+{
+    "model": "TechSutraapp.department",
+    "pk": 7,
+    "fields": {
+        "name": "Information Technology"
+    }
+},
+{
+    "model": "TechSutraapp.department",
+    "pk": 8,
+    "fields": {
+        "name": "Chemical Engineering"
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 8,
+    "fields": {
+        "department": 5,
+        "number": 5
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 9,
+    "fields": {
+        "department": 5,
+        "number": 6
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 10,
+    "fields": {
+        "department": 6,
+        "number": 5
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 11,
+    "fields": {
+        "department": 6,
+        "number": 6
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 12,
+    "fields": {
+        "department": 7,
+        "number": 5
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 13,
+    "fields": {
+        "department": 7,
+        "number": 6
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 14,
+    "fields": {
+        "department": 8,
+        "number": 5
+    }
+},
+{
+    "model": "TechSutraapp.semester",
+    "pk": 15,
+    "fields": {
+        "department": 8,
+        "number": 6
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 24,
+    "fields": {
+        "semester": 8,
+        "name": "Database Management Systems"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 25,
+    "fields": {
+        "semester": 8,
+        "name": "Advanced Java Programming"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 26,
+    "fields": {
+        "semester": 8,
+        "name": "Data Communication"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 27,
+    "fields": {
+        "semester": 8,
+        "name": "Microcontroller And Applications"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 28,
+    "fields": {
+        "semester": 8,
+        "name": "Sensor And Applications"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 29,
+    "fields": {
+        "semester": 9,
+        "name": "Software Engineering and Project Management"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 30,
+    "fields": {
+        "semester": 9,
+        "name": "Computer Networks and Security"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 31,
+    "fields": {
+        "semester": 9,
+        "name": "Embedded Processors and Applications"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 32,
+    "fields": {
+        "semester": 9,
+        "name": "Software Modelling and Design"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 33,
+    "fields": {
+        "semester": 10,
+        "name": "Database Management Systems"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 34,
+    "fields": {
+        "semester": 10,
+        "name": "Theory Of Computation"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 35,
+    "fields": {
+        "semester": 10,
+        "name": "Systems Programming and Operating System"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 36,
+    "fields": {
+        "semester": 10,
+        "name": "Computer Networks and Security"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 37,
+    "fields": {
+        "semester": 10,
+        "name": "Internet Of Things and Embedded System"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 38,
+    "fields": {
+        "semester": 11,
+        "name": "Data Science and Big Data Analytics"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 39,
+    "fields": {
+        "semester": 11,
+        "name": "Web Technology"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 40,
+    "fields": {
+        "semester": 11,
+        "name": "Artificial Intelligence"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 41,
+    "fields": {
+        "semester": 11,
+        "name": "Cloud Computing"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 42,
+    "fields": {
+        "semester": 12,
+        "name": "Theory of Computation"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 43,
+    "fields": {
+        "semester": 12,
+        "name": "Operating Systems"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 44,
+    "fields": {
+        "semester": 12,
+        "name": "Machine Learning"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 45,
+    "fields": {
+        "semester": 12,
+        "name": "Human Computer Interaction"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 46,
+    "fields": {
+        "semester": 12,
+        "name": "Internet Of Things"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 47,
+    "fields": {
+        "semester": 13,
+        "name": "Computer Networks and Security"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 48,
+    "fields": {
+        "semester": 13,
+        "name": "Data Science and Big Data Analytics"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 49,
+    "fields": {
+        "semester": 13,
+        "name": "Web Applications Development"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 50,
+    "fields": {
+        "semester": 13,
+        "name": "Software Modelling and Design"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 51,
+    "fields": {
+        "semester": 15,
+        "name": "Mass Transfer 2"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 52,
+    "fields": {
+        "semester": 15,
+        "name": "Transfer Phenomenon"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 53,
+    "fields": {
+        "semester": 15,
+        "name": "Chemical Reaction Engineering"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 54,
+    "fields": {
+        "semester": 15,
+        "name": "Process Instrumentation and Control"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 55,
+    "fields": {
+        "semester": 14,
+        "name": "Chemical Engineering Thermodynamic"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 56,
+    "fields": {
+        "semester": 14,
+        "name": "Chemical Industries Management"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 57,
+    "fields": {
+        "semester": 14,
+        "name": "Mass Transfer-1"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 58,
+    "fields": {
+        "semester": 14,
+        "name": "Engineering Mathematics"
+    }
+},
+{
+    "model": "TechSutraapp.subject",
+    "pk": 59,
+    "fields": {
+        "semester": 14,
+        "name": "Chemical Technology 2"
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 41,
+    "fields": {
+        "subject": 24,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/DBMS_U1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 42,
+    "fields": {
+        "subject": 24,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/dbms_unit_2.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 43,
+    "fields": {
+        "subject": 24,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/DBMS_U3.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 44,
+    "fields": {
+        "subject": 24,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/DBMS_U4.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 45,
+    "fields": {
+        "subject": 24,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/DBMS_U5.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 46,
+    "fields": {
+        "subject": 24,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 47,
+    "fields": {
+        "subject": 25,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/java_u1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 48,
+    "fields": {
+        "subject": 25,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/java_u2.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 49,
+    "fields": {
+        "subject": 25,
+        "title": "unit-1",
+        "file_type": "notes_ppt",
+        "file": "resources/Unit_I_OOPs_Concept.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 50,
+    "fields": {
+        "subject": 25,
+        "title": "unit-2",
+        "file_type": "notes_ppt",
+        "file": "resources/Unit_II_Packages_interfaces_and_fundamental_classes.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 51,
+    "fields": {
+        "subject": 25,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/java_unit_6_BFb5Fte.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 52,
+    "fields": {
+        "subject": 25,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/ajv_u5_u6.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 53,
+    "fields": {
+        "subject": 25,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/AJP-6th_unit.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 54,
+    "fields": {
+        "subject": 26,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/Data_comm_unit_1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 55,
+    "fields": {
+        "subject": 26,
+        "title": "unit-1",
+        "file_type": "notes_ppt",
+        "file": "resources/DC_Unit-I_gBlnBL4.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 57,
+    "fields": {
+        "subject": 26,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/DC_Unit-II.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 59,
+    "fields": {
+        "subject": 26,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/Unit3-Digital_Modulation_Techniques.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 60,
+    "fields": {
+        "subject": 26,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/DC_Unit_4_Notes_hxAn8Rq.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 61,
+    "fields": {
+        "subject": 26,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/DC_unit_5_notes.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 62,
+    "fields": {
+        "subject": 26,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/DC_Unit.6_Part.1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 63,
+    "fields": {
+        "subject": 27,
+        "title": "unit-1",
+        "file_type": "notes_ppt",
+        "file": "resources/Unit_1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 64,
+    "fields": {
+        "subject": 27,
+        "title": "unit-2",
+        "file_type": "notes_ppt",
+        "file": "resources/Unit_2_LJEG5LG.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 65,
+    "fields": {
+        "subject": 27,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/Microcontroller_Unit_11_1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 66,
+    "fields": {
+        "subject": 27,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/Unit_II_MCA_Notes.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 67,
+    "fields": {
+        "subject": 27,
+        "title": "unit-3",
+        "file_type": "notes_ppt",
+        "file": "resources/mcaa_unit_3.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 68,
+    "fields": {
+        "subject": 27,
+        "title": "unit-4",
+        "file_type": "notes_ppt",
+        "file": "resources/Unit_4_-_MSP430_2024-25.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 69,
+    "fields": {
+        "subject": 27,
+        "title": "unit-5",
+        "file_type": "notes_ppt",
+        "file": "resources/Unit_5_-_MSP430_Real_world_interfacing_2024-25.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 70,
+    "fields": {
+        "subject": 27,
+        "title": "unit-6",
+        "file_type": "notes_ppt",
+        "file": "resources/mca_u6.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 71,
+    "fields": {
+        "subject": 29,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_X01Dpnw.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 72,
+    "fields": {
+        "subject": 29,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_S2SiPHg.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 73,
+    "fields": {
+        "subject": 29,
+        "title": "unit-1",
+        "file_type": "notes_ppt",
+        "file": "resources/TE-Unit-I_Repaired_pXX22a1.pptx",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 74,
+    "fields": {
+        "subject": 29,
+        "title": "unit-2",
+        "file_type": "notes_ppt",
+        "file": "resources/TE_Unit-II_MDUtlNw.pptx",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 75,
+    "fields": {
+        "subject": 29,
+        "title": "unit-3",
+        "file_type": "notes_ppt",
+        "file": "resources/TE_Unit-III_o0zBbpZ.pptx",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 76,
+    "fields": {
+        "subject": 29,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/U3_SEPM_TywZ8xE.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 77,
+    "fields": {
+        "subject": 29,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/U4_SEPM_KK873Sr.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 78,
+    "fields": {
+        "subject": 29,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/U5_SEPM_aijM3Zg.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 79,
+    "fields": {
+        "subject": 29,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/U6_SEPM_glh5WUD.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 80,
+    "fields": {
+        "subject": 30,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/CNS_U1_hqbVMLW.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 81,
+    "fields": {
+        "subject": 30,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/CNS_U2_uM03n2f.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 82,
+    "fields": {
+        "subject": 30,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 83,
+    "fields": {
+        "subject": 30,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/CNS_Unit_4_ccZCSpx.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 84,
+    "fields": {
+        "subject": 30,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/CNS_Unit_5_vhJAXz0.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 85,
+    "fields": {
+        "subject": 30,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_2boOWjr.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 86,
+    "fields": {
+        "subject": 31,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/EPA_Unit_1_Wp4Oocx.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 87,
+    "fields": {
+        "subject": 31,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/EPA_Unit_2_s6rwg06.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 88,
+    "fields": {
+        "subject": 31,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/EPA_U3_RsK6AER.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 89,
+    "fields": {
+        "subject": 31,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/EPA_U4_SBYzGj0.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 90,
+    "fields": {
+        "subject": 31,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 91,
+    "fields": {
+        "subject": 31,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_7BEn1nS.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 92,
+    "fields": {
+        "subject": 33,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_klspMuV.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 93,
+    "fields": {
+        "subject": 33,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_zzIzWJm.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 94,
+    "fields": {
+        "subject": 33,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_DjJ1xwl.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 95,
+    "fields": {
+        "subject": 33,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 96,
+    "fields": {
+        "subject": 33,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_xbjYSlU.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 97,
+    "fields": {
+        "subject": 33,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_Bvc2Rp9.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 98,
+    "fields": {
+        "subject": 33,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/DBMS_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 99,
+    "fields": {
+        "subject": 33,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/DBMS__ENDSEM.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 100,
+    "fields": {
+        "subject": 34,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_B7rV93R.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 101,
+    "fields": {
+        "subject": 34,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_1KLgwvn.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 102,
+    "fields": {
+        "subject": 34,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_mEO5hsP.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 103,
+    "fields": {
+        "subject": 34,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_zG1LLRX.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 104,
+    "fields": {
+        "subject": 34,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_qShcwuv.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 105,
+    "fields": {
+        "subject": 34,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_waHzHYk.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 106,
+    "fields": {
+        "subject": 34,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/TOC_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 107,
+    "fields": {
+        "subject": 34,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/TOC_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 108,
+    "fields": {
+        "subject": 35,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_6TsPY9C.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 109,
+    "fields": {
+        "subject": 35,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_RjVH30r.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 110,
+    "fields": {
+        "subject": 35,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_Oqfoy7x.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 111,
+    "fields": {
+        "subject": 35,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_IDqElso.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 112,
+    "fields": {
+        "subject": 35,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_lddYuzu.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 113,
+    "fields": {
+        "subject": 35,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_S2Mx0dP.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 114,
+    "fields": {
+        "subject": 35,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/spops_insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 115,
+    "fields": {
+        "subject": 35,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/Spos_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 116,
+    "fields": {
+        "subject": 36,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_1Yl6o0y.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 117,
+    "fields": {
+        "subject": 36,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_zzPV8fx.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 118,
+    "fields": {
+        "subject": 36,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_XXPzSCu.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 119,
+    "fields": {
+        "subject": 36,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_Uy2XOT1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 120,
+    "fields": {
+        "subject": 36,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_RcZdmYq.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 121,
+    "fields": {
+        "subject": 36,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_NQoKERP.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 123,
+    "fields": {
+        "subject": 36,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_Insem_TK4yN6n.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 124,
+    "fields": {
+        "subject": 36,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 125,
+    "fields": {
+        "subject": 37,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_TBSM059.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 126,
+    "fields": {
+        "subject": 37,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_n9LwHis.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 127,
+    "fields": {
+        "subject": 37,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_PPnxOK5.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 128,
+    "fields": {
+        "subject": 37,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_dE6zPel.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 129,
+    "fields": {
+        "subject": 37,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_scws1vk.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 130,
+    "fields": {
+        "subject": 37,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_7hP7rvj.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 131,
+    "fields": {
+        "subject": 37,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_Insem_Rd9SAsu.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 132,
+    "fields": {
+        "subject": 37,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_Endsem_SXhrX1J.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 133,
+    "fields": {
+        "subject": 38,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_yZ84zPR.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 134,
+    "fields": {
+        "subject": 38,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_FA8dxSJ.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 135,
+    "fields": {
+        "subject": 38,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_swbmfUE.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 136,
+    "fields": {
+        "subject": 38,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_uWo0eiu.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 137,
+    "fields": {
+        "subject": 38,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_oj2sShF.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 138,
+    "fields": {
+        "subject": 38,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_otCc4xE.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 139,
+    "fields": {
+        "subject": 38,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_Insem_4fl2K5Q.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 140,
+    "fields": {
+        "subject": 38,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_Endsem_k6pzFKc.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 141,
+    "fields": {
+        "subject": 39,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_8QeecyZ.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 142,
+    "fields": {
+        "subject": 39,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_hYAlPlR.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 143,
+    "fields": {
+        "subject": 39,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_NpJFTQu.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 144,
+    "fields": {
+        "subject": 39,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_UQ3peEX.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 145,
+    "fields": {
+        "subject": 39,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_ZbEHByq.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 146,
+    "fields": {
+        "subject": 39,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_290DBht.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 147,
+    "fields": {
+        "subject": 39,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/WT_Insem_5P0xoJh.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 148,
+    "fields": {
+        "subject": 39,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/WT_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 149,
+    "fields": {
+        "subject": 40,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_Kxnrr7H.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 150,
+    "fields": {
+        "subject": 40,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_sBhpVuU.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 151,
+    "fields": {
+        "subject": 40,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_tpZD1iV.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 152,
+    "fields": {
+        "subject": 40,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_1iMjyzb.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 153,
+    "fields": {
+        "subject": 40,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/Ai_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 154,
+    "fields": {
+        "subject": 40,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/AI_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 155,
+    "fields": {
+        "subject": 41,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_Ie9hzyZ.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 156,
+    "fields": {
+        "subject": 41,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_0J8XP87.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 157,
+    "fields": {
+        "subject": 41,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_74zanWa.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 158,
+    "fields": {
+        "subject": 41,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_X0AVHB8.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 159,
+    "fields": {
+        "subject": 41,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_0fb9Ndd.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 160,
+    "fields": {
+        "subject": 41,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_Fq0nDMy.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 161,
+    "fields": {
+        "subject": 41,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/CC_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 162,
+    "fields": {
+        "subject": 41,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/CC_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 163,
+    "fields": {
+        "subject": 42,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_e1wOSa9.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 164,
+    "fields": {
+        "subject": 42,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_bPOSwDr.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 165,
+    "fields": {
+        "subject": 42,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_1CdUN0O.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 166,
+    "fields": {
+        "subject": 42,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_2P01qgN.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 167,
+    "fields": {
+        "subject": 42,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_kKiNlPJ.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 168,
+    "fields": {
+        "subject": 42,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_ITTt8bk.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 169,
+    "fields": {
+        "subject": 42,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/CC_Insem_q96lA8I.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 170,
+    "fields": {
+        "subject": 42,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/CC_Endsem_vtayoUH.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 171,
+    "fields": {
+        "subject": 43,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_4hzAfzz.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 172,
+    "fields": {
+        "subject": 43,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_pzmmHlx.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 173,
+    "fields": {
+        "subject": 43,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_ATPygB8.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 174,
+    "fields": {
+        "subject": 43,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_MbSdEG9.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 175,
+    "fields": {
+        "subject": 43,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_RZaCC7i.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 176,
+    "fields": {
+        "subject": 43,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_9QFIBwp.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 177,
+    "fields": {
+        "subject": 43,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/OS_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 178,
+    "fields": {
+        "subject": 43,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/OS_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 179,
+    "fields": {
+        "subject": 44,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/ML_INsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 180,
+    "fields": {
+        "subject": 44,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/ML_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 181,
+    "fields": {
+        "subject": 45,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/ML_INsem_vaxiSB3.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 182,
+    "fields": {
+        "subject": 45,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/ML_Endsem_owDAPzN.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 183,
+    "fields": {
+        "subject": 46,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/IOT_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 184,
+    "fields": {
+        "subject": 46,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/IOT_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 185,
+    "fields": {
+        "subject": 47,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/IOT_Insem_N7BKAsH.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 186,
+    "fields": {
+        "subject": 47,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/IOT_Endsem_c1PLz0K.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 187,
+    "fields": {
+        "subject": 48,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/DSBDA_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 188,
+    "fields": {
+        "subject": 48,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/DSBDA_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 189,
+    "fields": {
+        "subject": 49,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_lUVGj9g.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 190,
+    "fields": {
+        "subject": 49,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_EyNi9ie.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 191,
+    "fields": {
+        "subject": 49,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_LPn0mxG.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 192,
+    "fields": {
+        "subject": 49,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_DgatoTt.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 193,
+    "fields": {
+        "subject": 49,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/WAD_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 194,
+    "fields": {
+        "subject": 49,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/WAD_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 196,
+    "fields": {
+        "subject": 44,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_r8ih1tm.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 197,
+    "fields": {
+        "subject": 44,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_1an9tL2.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 198,
+    "fields": {
+        "subject": 44,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_3LtjYMW.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 199,
+    "fields": {
+        "subject": 44,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_ugVsq3K.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 200,
+    "fields": {
+        "subject": 44,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_Fl47FKD.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 201,
+    "fields": {
+        "subject": 44,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_fJVS7S7.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 202,
+    "fields": {
+        "subject": 45,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_qglywlr.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 203,
+    "fields": {
+        "subject": 45,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_UdbHi0h.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 204,
+    "fields": {
+        "subject": 45,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_cMoXp6q.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 205,
+    "fields": {
+        "subject": 45,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_KootSrd.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 206,
+    "fields": {
+        "subject": 46,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_xYC5iU2.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 207,
+    "fields": {
+        "subject": 46,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_jW3JZrg.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 208,
+    "fields": {
+        "subject": 46,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_i0fQdUV.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 209,
+    "fields": {
+        "subject": 46,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_Bi5bznQ.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 210,
+    "fields": {
+        "subject": 46,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_1zdxh3z.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 211,
+    "fields": {
+        "subject": 47,
+        "title": "unit-1",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-1_oZvMjx1.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 212,
+    "fields": {
+        "subject": 47,
+        "title": "unit-2",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-2_XlJlBVr.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 213,
+    "fields": {
+        "subject": 47,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-3_ctSQTxl.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 214,
+    "fields": {
+        "subject": 47,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-4_jJw9sJJ.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 215,
+    "fields": {
+        "subject": 47,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_5hJxpTv.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 216,
+    "fields": {
+        "subject": 47,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_Y2pMdOE.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 217,
+    "fields": {
+        "subject": 48,
+        "title": "unit-3",
+        "file_type": "notes_pdf",
+        "file": "resources/DSBDA_Unit_3.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 218,
+    "fields": {
+        "subject": 48,
+        "title": "unit-4",
+        "file_type": "notes_pdf",
+        "file": "resources/DSBDA_Unit_4.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 219,
+    "fields": {
+        "subject": 48,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/DSBDA_Unit_5.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 220,
+    "fields": {
+        "subject": 48,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/DSBDA_Unit_6.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 221,
+    "fields": {
+        "subject": 49,
+        "title": "unit-5",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-5_X0FiMZm.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 222,
+    "fields": {
+        "subject": 49,
+        "title": "unit-6",
+        "file_type": "notes_pdf",
+        "file": "resources/unit-6_AZRC07Q.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 223,
+    "fields": {
+        "subject": 55,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/chemical_engineering_thermodynamics__Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 224,
+    "fields": {
+        "subject": 56,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/Chemical_industry__amnagement_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 225,
+    "fields": {
+        "subject": 57,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/mass_transfer_1_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 226,
+    "fields": {
+        "subject": 58,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/engineering_mathematics_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 227,
+    "fields": {
+        "subject": 59,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/chemical_technology_endsem_.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 228,
+    "fields": {
+        "subject": 51,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/MT_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 229,
+    "fields": {
+        "subject": 51,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/MT-2_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 230,
+    "fields": {
+        "subject": 52,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/TP_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 231,
+    "fields": {
+        "subject": 52,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/Tp_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 232,
+    "fields": {
+        "subject": 53,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/CRE_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 233,
+    "fields": {
+        "subject": 53,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/CRE__Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 234,
+    "fields": {
+        "subject": 54,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/PIC_In_sem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 235,
+    "fields": {
+        "subject": 54,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/PIC_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 236,
+    "fields": {
+        "subject": 24,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/DBMS_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 237,
+    "fields": {
+        "subject": 25,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/AJP_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 238,
+    "fields": {
+        "subject": 26,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/Dc_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 239,
+    "fields": {
+        "subject": 27,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/MCA_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 240,
+    "fields": {
+        "subject": 28,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/SA_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 241,
+    "fields": {
+        "subject": 29,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/SEPM_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 242,
+    "fields": {
+        "subject": 29,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/SEPM_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 243,
+    "fields": {
+        "subject": 30,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_Insem_6tEcQbg.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 244,
+    "fields": {
+        "subject": 30,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/CNS_endsem_hesOz2K.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 245,
+    "fields": {
+        "subject": 31,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/EPA_insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 246,
+    "fields": {
+        "subject": 31,
+        "title": "ENDSEM",
+        "file_type": "qp",
+        "file": "resources/EPA_Endsem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.resource",
+    "pk": 247,
+    "fields": {
+        "subject": 32,
+        "title": "INSEM",
+        "file_type": "qp",
+        "file": "resources/SMD_Insem.pdf",
+        "uploaded_by": [
+            "techsutra"
+        ]
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "nikita"
+        ],
+        "username": "nikita",
+        "registered_at": "2026-04-08T16:37:51.183Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "Dipti"
+        ],
+        "username": "Dipti",
+        "registered_at": "2026-04-10T05:50:55.335Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "Rinal"
+        ],
+        "username": "Rinal",
+        "registered_at": "2026-04-10T06:08:46.853Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "Rinu"
+        ],
+        "username": "Rinu",
+        "registered_at": "2026-04-21T08:02:33.856Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "Jayashri"
+        ],
+        "username": "Jayashri",
+        "registered_at": "2026-05-08T04:29:44.081Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "TECHSUTRA"
+        ],
+        "username": "TECHSUTRA",
+        "registered_at": "2026-05-08T04:35:56.927Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "svit"
+        ],
+        "username": "svit",
+        "registered_at": "2026-05-08T06:43:35.964Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "ragini"
+        ],
+        "username": "ragini",
+        "registered_at": "2026-05-08T06:50:18.106Z"
+    }
+},
+{
+    "model": "TechSutraapp.userregistrationdata",
+    "pk": 11,
+    "fields": {
+        "user": [
+            "Bhagyashri"
+        ],
+        "username": "Bhagyashri",
+        "registered_at": "2026-05-08T06:57:31.717Z"
+    }
+},
+{
+    "model": "TechSutraapp.platformreview",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "TechSutra"
+        ],
+        "rating": 4,
+        "text": "it is very useful",
+        "created_at": "2026-04-09T03:54:31.920Z"
+    }
+},
+{
+    "model": "TechSutraapp.platformreview",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "Dipti"
+        ],
+        "rating": 4,
+        "text": "the learning note are very nice and very useful \r\n",
+        "created_at": "2026-04-14T04:21:24.152Z"
+    }
+},
+{
+    "model": "TechSutraapp.videolecture",
+    "pk": 11,
+    "fields": {
+        "subject": 24,
+        "title": "Unit-1",
+        "description": "DBMS basics, ER model, Relational model, Data abstraction, Architecture",
+        "video_file": "",
+        "video_url": "https://youtu.be/IoL9Ve2SRwQ?si=ztWV4-a3bans3Anz",
+        "uploaded_by": [
+            "techsutra"
+        ],
+        "created_at": "2026-05-08T05:43:14.224Z"
+    }
+}
+]

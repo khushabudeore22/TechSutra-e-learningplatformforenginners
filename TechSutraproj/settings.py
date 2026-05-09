@@ -10,7 +10,12 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
+import os
 from pathlib import Path
+from dotenv import load_dotenv
+import dj_database_url
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,12 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-+hk%%8qm=hdxbyf_7gg+h_&*njvr=8!7(=v452eh8z$)3_q)q7'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-+hk%%8qm=hdxbyf_7gg+h_&*njvr=8!7(=v452eh8z$)3_q)q7')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
 
 
 # Application definition
@@ -36,12 +41,15 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
+    'cloudinary',
     'TechSutraapp', 
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -79,6 +87,11 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# Update database configuration from $DATABASE_URL if provided
+db_from_env = dj_database_url.config(conn_max_age=500, ssl_require=False)
+if db_from_env:
+    DATABASES['default'].update(db_from_env)
 
 
 # Password validation
@@ -120,9 +133,45 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Media files (User uploads)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+# Cloudinary config - only activate when credentials are provided
+_cloud_name = os.environ.get('CLOUDINARY_CLOUD_NAME', '')
+_api_key = os.environ.get('CLOUDINARY_API_KEY', '')
+_api_secret = os.environ.get('CLOUDINARY_API_SECRET', '')
+
+USE_CLOUDINARY = all([
+    _cloud_name and _cloud_name != 'your_cloud_name_here',
+    _api_key and _api_key != 'your_api_key_here',
+    _api_secret and _api_secret != 'your_api_secret_here',
+])
+
+if USE_CLOUDINARY:
+    CLOUDINARY_STORAGE = {
+        'CLOUD_NAME': _cloud_name,
+        'API_KEY': _api_key,
+        'API_SECRET': _api_secret,
+    }
+    STORAGES = {
+        "default": {
+            "BACKEND": "cloudinary_storage.storage.MediaCloudinaryStorage",
+        },
+        "staticfiles": {
+            "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+        },
+    }
+else:
+    STORAGES = {
+        "default": {
+            "BACKEND": "django.core.files.storage.FileSystemStorage",
+        },
+        "staticfiles": {
+            "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+        },
+    }
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'

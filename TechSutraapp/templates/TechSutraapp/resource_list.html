@@ -55,7 +55,7 @@
         <div class="card">
             <h3>{{ file.title }}</h3>
             <br>
-            <button onclick="window.open('{{ file.file.url }}', '_blank')">View {{ type_display }}</button>
+            <button onclick="openResource('{{ file.file.url }}')">View {{ type_display }}</button>
             <a href="{{ file.file.url }}" download style="text-decoration: none;">
                 <button style="width: 100%; margin-top: 10px;">Download</button>
             </a>
@@ -68,6 +68,25 @@
 
 <!-- ================= FOOTER ================= -->
 {% include 'TechSutraapp/footer.html' %}
+
+<script>
+    function openResource(fileUrl) {
+        const previewableExtensions = ['pdf', 'jpg', 'jpeg', 'png', 'mp4', 'webm', 'ogg'];
+        const ext = (fileUrl || '').split('.').pop().split('?')[0].toLowerCase();
+
+        if (previewableExtensions.includes(ext)) {
+            window.open(fileUrl, '_blank');
+            return;
+        }
+
+        const downloadLink = document.createElement('a');
+        downloadLink.href = fileUrl;
+        downloadLink.download = '';
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    }
+</script>
 
 </body>
 </html>

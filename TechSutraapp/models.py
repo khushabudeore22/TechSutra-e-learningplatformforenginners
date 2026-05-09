@@ -45,7 +45,7 @@ class Resource(models.Model):
     file = models.FileField(
         upload_to='resources/',
         validators=[FileExtensionValidator(
-            allowed_extensions=['pdf', 'ppt', 'pptx', 'jpg', 'jpeg', 'png', 'mp4', 'webm', 'ogg']
+            allowed_extensions=['pdf', 'ppt', 'pptx', 'jpg', 'jpeg', 'png', 'mp4', 'webm', 'ogg', 'mkv']
         )]
     )
     uploaded_by = models.ForeignKey(User, on_delete=models.CASCADE)
